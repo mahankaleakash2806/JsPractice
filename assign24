@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //no argument no return
+        function greetings(){
+            console.log("Hi! there..");
+        }
+        //argument but no return
+       
+        function greetingsto(name){
+            console.log(`Good Morning ${name}`);
+        }
+        //no argument but return
+        function noArgumentButReturn(){
+            let temp='this is returned from noArgumentButReturn'
+            return temp;
+        }
+        //argument and return
+        function argumentAndReturn(l,b){
+            let area=l*b;
+            return area;
+        }
+
+        greetings();
+        greetingsto('Suraj');
+        console.log(`${noArgumentButReturn}`);
+        console.log(`${noArgumentButReturn()}`);
+
+        let l=10;
+        let b=3;
+        let area = argumentAndReturn(l,b);
+        console.log(`the area for length ${l} and breadth ${b} is ${area}`);
+    </script>
+</body>
+</html>
