@@ -28,7 +28,7 @@
         }
 
         greetings();
-        greetingsto('Suraj');
+        greetingsto('Akash');
         console.log(`${noArgumentButReturn}`);
         console.log(`${noArgumentButReturn()}`);
 
